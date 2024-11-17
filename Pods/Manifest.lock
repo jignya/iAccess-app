@@ -1,0 +1,28 @@
+PODS:
+  - ImShExtensions (1.0.6)
+  - KeyboardObserver (2.1.0)
+  - SideMenu (6.5.0)
+  - SnapKit (4.0.1)
+
+DEPENDENCIES:
+  - ImShExtensions
+  - KeyboardObserver
+  - SideMenu
+  - SnapKit
+
+SPEC REPOS:
+  trunk:
+    - ImShExtensions
+    - KeyboardObserver
+    - SideMenu
+    - SnapKit
+
+SPEC CHECKSUMS:
+  ImShExtensions: 276586788e916daf25e58c1d325aa2b994460477
+  KeyboardObserver: 338f87db88f4d6f4b4af334fe025bc824251d57b
+  SideMenu: f583187d21c5b1dd04c72002be544b555a2627a2
+  SnapKit: 0de968a9fec17499afa29683b05d0c775b6d1c29
+
+PODFILE CHECKSUM: 3670f8b222d8aa3e88e701510e752f1d6dd32e22
+
+COCOAPODS: 1.15.2

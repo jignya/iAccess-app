@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="HelveticaNeue.ttc">
+            <string>HelveticaNeue</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="AllergyCell" rowHeight="327" id="KGk-i7-Jjw" customClass="AllergyCell" customModule="iACCESS" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="327"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="327"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="iGD-a1-Mh3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="307"/>
+                        <subviews>
+                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qn1-Th-FnV">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="60"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" tag="25" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Nv-1M-5oV">
+                                        <rect key="frame" x="15" y="8" width="245" height="44"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mWl-76-Rt2">
+                                        <rect key="frame" x="265" y="10" width="40" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="ABl-JN-wZL"/>
+                                            <constraint firstAttribute="width" constant="40" id="ShM-yk-Bi0"/>
+                                        </constraints>
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" image="IQButtonBarArrowDown"/>
+                                        <state key="selected" image="IQButtonBarArrowUp"/>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="mWl-76-Rt2" secondAttribute="trailing" constant="15" id="22W-rJ-iqX"/>
+                                    <constraint firstItem="mWl-76-Rt2" firstAttribute="centerY" secondItem="6Nv-1M-5oV" secondAttribute="centerY" id="4eR-Uj-kWD"/>
+                                    <constraint firstAttribute="height" constant="60" id="4tc-c8-zQ9"/>
+                                    <constraint firstItem="6Nv-1M-5oV" firstAttribute="centerY" secondItem="qn1-Th-FnV" secondAttribute="centerY" id="BwX-ib-oVd"/>
+                                    <constraint firstItem="6Nv-1M-5oV" firstAttribute="leading" secondItem="qn1-Th-FnV" secondAttribute="leading" constant="15" id="EOo-CA-gmc"/>
+                                    <constraint firstAttribute="trailing" secondItem="6Nv-1M-5oV" secondAttribute="trailing" constant="60" id="LBg-XZ-Eyh"/>
+                                    <constraint firstItem="6Nv-1M-5oV" firstAttribute="top" secondItem="qn1-Th-FnV" secondAttribute="top" constant="8" id="sD4-Qm-dUU"/>
+                                    <constraint firstAttribute="bottom" secondItem="6Nv-1M-5oV" secondAttribute="bottom" constant="8" id="xi0-7d-5pu"/>
+                                </constraints>
+                            </view>
+                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YCY-mj-Uoh">
+                                <rect key="frame" x="0.0" y="60" width="320" height="247"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" tag="25" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BOQ-U9-d1U">
+                                        <rect key="frame" x="15" y="8" width="290" height="231"/>
+                                        <string key="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</string>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="BOQ-U9-d1U" secondAttribute="trailing" constant="15" id="B1G-bY-vsu"/>
+                                    <constraint firstItem="BOQ-U9-d1U" firstAttribute="top" secondItem="YCY-mj-Uoh" secondAttribute="top" constant="8" id="CZ0-Y0-eqR"/>
+                                    <constraint firstAttribute="bottom" secondItem="BOQ-U9-d1U" secondAttribute="bottom" constant="8" id="iP8-BI-y8A"/>
+                                    <constraint firstItem="BOQ-U9-d1U" firstAttribute="leading" secondItem="YCY-mj-Uoh" secondAttribute="leading" constant="15" id="irw-zV-oK2"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.85098039215686272" green="0.85098039215686272" blue="0.85098039215686272" alpha="1" colorSpace="calibratedRGB"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="iGD-a1-Mh3" secondAttribute="bottom" constant="20" id="5aR-dc-Mmm"/>
+                    <constraint firstItem="iGD-a1-Mh3" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="PpE-fT-5pa"/>
+                    <constraint firstItem="iGD-a1-Mh3" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="UDx-fg-3fZ"/>
+                    <constraint firstAttribute="trailing" secondItem="iGD-a1-Mh3" secondAttribute="trailing" id="jIh-Jh-e4P"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="btnArrow" destination="mWl-76-Rt2" id="OIB-P6-olX"/>
+                <outlet property="lblDesc" destination="BOQ-U9-d1U" id="x82-vg-Bpc"/>
+                <outlet property="lblTitle" destination="6Nv-1M-5oV" id="CUz-tK-Opk"/>
+                <outlet property="stackData" destination="iGD-a1-Mh3" id="VwW-j4-wMS"/>
+                <outlet property="viewDesc" destination="YCY-mj-Uoh" id="by2-SN-gCk"/>
+            </connections>
+            <point key="canvasLocation" x="22.900763358778626" y="120.07042253521128"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="IQButtonBarArrowDown" width="21" height="12"/>
+        <image name="IQButtonBarArrowUp" width="21" height="12"/>
+    </resources>
+</document>

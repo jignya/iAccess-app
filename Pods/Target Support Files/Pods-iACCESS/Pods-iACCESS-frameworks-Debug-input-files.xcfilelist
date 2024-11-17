@@ -1,0 +1,5 @@
+${PODS_ROOT}/Target Support Files/Pods-iACCESS/Pods-iACCESS-frameworks.sh
+${BUILT_PRODUCTS_DIR}/ImShExtensions/ImShExtensions.framework
+${BUILT_PRODUCTS_DIR}/KeyboardObserver/KeyboardObserver.framework
+${BUILT_PRODUCTS_DIR}/SideMenu/SideMenu.framework
+${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework

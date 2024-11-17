@@ -1,0 +1,6 @@
+framework module ImShExtensions {
+  umbrella header "ImShExtensions-umbrella.h"
+
+  export *
+  module * { export * }
+}
